@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Storage Management</title>
+</head>
+
+<body>
+    <header>
+        <h1>Storage Management</h1>
+    </header>
+    <div class="main-container">
+
+        <div class="storage-tables">
+            <!-- first table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="7" class="table-title">Product sheet</th>
+                    </tr>
+                    <tr>
+                        <th colspan="4" class="drug-description">
+                            <ul>
+                                <li>INN: acetaminophen</li>
+                                <li>Packaging: pills</li>
+                                <li>Monthly consumption: 500 boxes</li>
+                            </ul>
+                        </th>
+                        <th colspan="3">Dosage: 500mg</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <th>Recipient/sender</th>
+                        <th>Entry</th>
+                        <th>Exit</th>
+                        <th>Balance</th>
+                        <th>Expiry Date</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>50</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2023-01-01</td>
+                        <td>Expired</td>
+                        <td></td>
+                        <td>5</td>
+                        <td>45</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2023-01-05</td>
+                        <td>Inventory</td>
+                        <td></td>
+                        <td>10</td>
+                        <td>35</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2023-01-06</td>
+                        <td>Dispensation</td>
+                        <td></td>
+                        <td>4</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="storage-tables">
+            <!-- second table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="6" class="table-title">Dispense register</th>
+                    </tr>
+                    <tr>
+                        <th>N°</th>
+                        <th>Date</th>
+                        <th>Patient Code</th>
+                        <th>First/Last Name</th>
+                        <th>Prescribing Ph</th>
+                        <th>Dispense drugs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2022-12-24</td>
+                        <td>ZA88</td>
+                        <td>Untel</td>
+                        <td>Dr B</td>
+                        <td>acetaminophen</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2022-12-28</td>
+                        <td>CA80</td>
+                        <td>Unknown</td>
+                        <td>Dr M</td>
+                        <td>amoxicillin</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2023-01-01</td>
+                        <td>BL78</td>
+                        <td>Foo</td>
+                        <td>Dr A</td>
+                        <td>tramadol</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>2023-01-02</td>
+                        <td>XX55</td>
+                        <td>Fii</td>
+                        <td>Dr F</td>
+                        <td>abacavir</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>2023-01-03</td>
+                        <td>XY18</td>
+                        <td>Hum</td>
+                        <td>Dr A</td>
+                        <td>lamivudine</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="storage-tables">
+            <!-- third table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="8" class="table-title">Inventory sheet</th>
+                    </tr>
+                    <tr>
+                        <th colspan="8">Date</th>
+                    </tr>
+                    <tr>
+                        <th>INN</th>
+                        <th>Form</th>
+                        <th>Dosage</th>
+                        <th>Theoretical Stock</th>
+                        <th>Real Stock</th>
+                        <th>Batch Number</th>
+                        <th>Expiry Date</th>
+                        <th>Delta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lamivudine</td>
+                        <td>tablet</td>
+                        <td>300mg</td>
+                        <td>55</td>
+                        <td>55</td>
+                        <td>F8HHH</td>
+                        <td>2024-12</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>tramadol</td>
+                        <td>drop</td>
+                        <td>100mg/ml</td>
+                        <td>40</td>
+                        <td>30</td>
+                        <td>F8ZZZ</td>
+                        <td>2024-10</td>
+                        <td>-10</td>
+                    </tr>
+                    <tr>
+                        <td>efavirenz</td>
+                        <td>capsule</td>
+                        <td>100mg</td>
+                        <td>30</td>
+                        <td>35</td>
+                        <td>D8HIH</td>
+                        <td>2023-12</td>
+                        <td>+5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>pharmadev@proton.me</p>
+    </footer>
+</body>
+
+</html>

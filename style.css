@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+header {
+    background-color: black;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+h1,p {
+    color: white;
+    text-align: center;
+}
+table,td,th {
+    border: 1px solid #333;
+}
+ul {
+    text-align: left;
+}
+li {
+    list-style: none;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.storage-tables {
+    margin-top: 15px;
+    width: 610px;
+    height: auto;
+}
+.table-title {
+    background-color: aqua;
+}
